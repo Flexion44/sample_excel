@@ -3,7 +3,7 @@ Un projet permettant d'initier des traitements sur des fichiers excel
 
 # Prérequis :
 
-Avoir installé nodejs et git sur sa machine
+Avoir installé nodejs et git sur sa machine. Pour vérifier que node et git sont bien installé : taper ```node --version``` et ```git --version``` depuis un terminal.
 
 # 1 - Téléchargement du projet en local
 
