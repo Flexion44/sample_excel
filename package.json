@@ -1,0 +1,25 @@
+{
+  "name": "sample_excel",
+  "version": "1.0.0",
+  "description": "Un projet permettant d'initier des traitements sur des fichiers excel ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flexion44/sample_excel.git"
+  },
+  "keywords": [
+    "exceljs"
+  ],
+  "author": "Alban LB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flexion44/sample_excel/issues"
+  },
+  "homepage": "https://github.com/Flexion44/sample_excel#readme",
+  "dependencies": {
+    "exceljs": "^4.3.0"
+  }
+}
