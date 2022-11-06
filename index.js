@@ -4,6 +4,9 @@ const ExcelJS = require('exceljs');
 // Create a new workbook
 const workbook = new ExcelJS.Workbook();
 
+//Start the timer
+const start = new Date();
+
 // Create a new worksheet
 const worksheet = workbook.addWorksheet('My Sheet');
 
@@ -25,5 +28,8 @@ worksheet.addRow({id: 5, name: 'Sue Doe', dob: new Date(2000,5,5)});
 workbook.xlsx.writeFile('sample.xlsx')
     .then(function() {
         // done
-        console.log("Done");
+        console.log("sample.xlsx written.");
+        //Stop the timer
+        const end = new Date();
+        console.log("Time taken: " + (end-start) + "ms");
     });
